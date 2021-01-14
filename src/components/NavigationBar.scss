@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+
+  a {
+    color: #636363;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.shopping-cart {
+  align-items: center;
+  padding: 10%;
+  margin-top: 75%;
+}
