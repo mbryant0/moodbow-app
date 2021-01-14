@@ -1,10 +1,11 @@
 import React from 'react';
 import './DirectoryCard.scss';
 import './Directory.scss';
+import { Link } from 'react-router-dom';
 
-const DirectoryCard = ({ title, image, imagePosition, size }) => {
+const DirectoryCard = ({ title, image, imagePosition, size, url }) => {
   return (
-    <div className={`${size} directory-card`}>
+    <Link to={url} className={`${size} directory-card`}>
       <div
         className='background-image'
         style={{
@@ -18,7 +19,7 @@ const DirectoryCard = ({ title, image, imagePosition, size }) => {
         <h1 className='title'>{title}</h1>
         <span className='subtitle'>SHOP NOW</span>
       </div>
-    </div>
+    </Link>
   );
 };
 
