@@ -16,7 +16,7 @@ function App() {
     <div>
       <NavigationBar />
       <Switch>
-        <Route exact path='/' component={Homepage} />
+        <Route exact path='/moodbow-app' component={Homepage} />
         <Route path='/signin' component={SignInPage} />
         <Route path='/accessories' component={Accesories} />
         <Route path='/beauty' component={Beauty} />
