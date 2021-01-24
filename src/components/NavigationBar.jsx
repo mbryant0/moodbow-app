@@ -3,12 +3,13 @@ import './NavigationBar.scss';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import moodbow from '../images/moodbow.png';
 
 const NavigationBar = () => {
   return (
     <div className='nav-bar'>
-      <Link to='/' className='logo'>
-        <img src='moodbow.png' />
+      <Link to='/moodbow-app' className='logo'>
+        <img src={moodbow} alt='Moodbow Logo' />
       </Link>
       <div className='nav-links'>
         <Link to='/'>
